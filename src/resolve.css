@@ -1,0 +1,50 @@
+.main {
+    margin: 5em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+    overflow: hidden;
+    padding-left: 5em;
+  }
+input {
+    float: left;
+    clear: both;
+  }
+  
+select {
+    float: left;
+    clear: both;
+}
+
+button {
+    float: left;
+    clear: both;
+}
+
+.dropDown {
+    padding: 2em 0 ;
+}
+.accNum {
+    padding-bottom: 2em  ;
+}
+
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+button:hover {
+    background-color: white;
+    border: 2px solid rgb(243, 107, 107);
+    color: rgb(243, 107, 107);
+}
