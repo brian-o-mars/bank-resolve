@@ -83,6 +83,7 @@ function Resolve() {
                 <option value="fidelityBank">fidelityBank</option>
                 <option value="firstBank">firstBank</option>
                 <option value="fcmb">fcmb</option>
+                <option value="gtb">gtb</option>
                 <option value="heritageBank">heritageBank</option>
                 <option value="jaizbank">jaizbank</option>
                 <option value="keystoneBank">keystoneBank</option>
