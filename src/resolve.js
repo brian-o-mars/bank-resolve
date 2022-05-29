@@ -67,7 +67,7 @@ function Resolve() {
   
   return (
     <div>
-      <h1>The best bank resolve app that CBN gannn is using</h1>
+      <h1>The best bank resolve app</h1>
       <h5>
         Zero error handling for now. If you don't get a result in 5 sec, please
         check your inputs
@@ -110,7 +110,7 @@ function Resolve() {
         {/* Display field */}
         <div className="display">
           <div>
-            <h2>Na your result be this</h2>
+            <h2>Here's your result</h2>
           </div>
           <div className="result">{accName}</div>
 
