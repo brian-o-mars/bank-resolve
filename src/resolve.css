@@ -32,7 +32,7 @@ button {
 
 
 button {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     border: none;
     color: white;
     padding: 10px 20px;
@@ -45,6 +45,12 @@ button {
 
 button:hover {
     background-color: white;
-    border: 2px solid rgb(243, 107, 107);
-    color: rgb(243, 107, 107);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.copyButton:hover {
+    color: blue;
+    cursor: pointer;
+    font-size: larger;
 }

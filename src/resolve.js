@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./resolve.css";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopy } from "@fortawesome/free-regular-svg-icons";
 
 function Resolve() {
   // object containing list of banks and their bank code
@@ -61,10 +64,14 @@ function Resolve() {
       });
   };
 
+  
   return (
     <div>
       <h1>The best bank resolve app that CBN gannn is using</h1>
-      <h5>Zero error handling for now. If you don't get a result in 5 sec, please check your inputs</h5>
+      <h5>
+        Zero error handling for now. If you don't get a result in 5 sec, please
+        check your inputs
+      </h5>
 
       <div className="main">
         {/* Input fields */}
@@ -106,6 +113,12 @@ function Resolve() {
             <h2>Na your result be this</h2>
           </div>
           <div className="result">{accName}</div>
+
+            {/* implementing copy button */}
+            
+          <CopyToClipboard className="copyButton" text={accName} >
+            <FontAwesomeIcon icon={faCopy} />
+          </CopyToClipboard>
         </div>
       </div>
     </div>
