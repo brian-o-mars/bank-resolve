@@ -129,7 +129,7 @@ function Resolve() {
     <div>
       <h1>Bank resolve app</h1>
       <h5>
-        Zero error handling for now. If you don't get a result in 5 sec, please
+        Zero error handling for now. If you don't get a result in 10 sec, please
         check your inputs
       </h5>
 
