@@ -219,7 +219,7 @@ function Resolve() {
                 <option value="palmPay">PalmPay</option>
                 <option value="parallexBank">Parallex Bank</option>
                 <option value="parkwayReadyCash">Parkway ReadyCash</option>
-                <option value="payCom">PayCom</option>
+                <option value="paycom">Paycom</option>
                 <option value="petraMircofinanceBankPlc">
                   Petra Mircofinance Bank Plc
                 </option>
