@@ -375,6 +375,8 @@ function Resolve() {
           </CopyToClipboard>
         </div>
       </div>
+      <h4 style={{marginBottom:0}}>Contact</h4>
+      <h6 style={{marginTop:7}}>brian.favour@gmail.com</h6>
     </div>
   );
 }
